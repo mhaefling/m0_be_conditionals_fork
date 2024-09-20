@@ -8,5 +8,5 @@ elsif good_driving_record == true || age > 25
 elsif age < 25 && good_driving_record == false
     puts "You need to have someone else sign for your car rental."
 else 
-    "Error"
+    puts "Invalid data provided."
 end

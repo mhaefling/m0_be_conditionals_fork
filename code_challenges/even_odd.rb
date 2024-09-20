@@ -1,6 +1,6 @@
 age = 41
 
-if age % 2 == 0
+if age.even?
     print "Even"
 else
     print "Odd"
